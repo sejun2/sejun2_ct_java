@@ -1,8 +1,6 @@
 package sorts;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 
 public class InsertionSort {
     void sort(int[] arr) {
