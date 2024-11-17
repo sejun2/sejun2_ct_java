@@ -5,7 +5,7 @@ class Solution {
 
         // 문자 / 숫자 / 아무값, null가능
 
-        for(int i=0;i<files.length;i++){
+
             Arrays.sort(files, (a,b) -> {
                 int[] aIndexs = processString(a);
                 int[] bIndexs = processString(b);
@@ -22,7 +22,6 @@ class Solution {
                 
                 return 0;
             });
-        }
         return files;
     }
 
