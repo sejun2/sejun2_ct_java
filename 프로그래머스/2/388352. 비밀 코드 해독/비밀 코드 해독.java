@@ -4,8 +4,6 @@ class Solution {
     int answer = 0;
     
     public int solution(int n, int[][] q, int[] ans) {
-        boolean[] visited = new boolean[n];
-        
         getCombination(n, new ArrayList<Integer>(), 1, q, ans);
         
         return answer;
