@@ -4,9 +4,6 @@ class Solution {
         PriorityQueue<Integer> maxPq = new PriorityQueue<>(Collections.reverseOrder());
         PriorityQueue<Integer> minPq = new PriorityQueue<>();
     public int[] solution(String[] operations) {
-        
-       new PriorityQueue<Integer>(maxPq);
-        
         for(int i= 0; i< operations.length; i++){
             if(operations[i].contains("I")){
                 insertNumber(Integer.parseInt(operations[i].substring(2, operations[i].length())));
